@@ -1,11 +1,9 @@
 <template>
-  <header>
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <!--  <AuthView />-->
+  <!--  <PageLayout />-->
+  <EmployeeBonusSystem />
 </template>
 
 <script setup>
-import HelloWorld from "@/components/HelloWorld.vue";
+import EmployeeBonusSystem from "@/views/EmployeeBonusSystem.vue";
 </script>
